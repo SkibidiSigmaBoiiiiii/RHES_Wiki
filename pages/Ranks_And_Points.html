@@ -5,158 +5,7 @@
     <meta charset="UTF-8">
     <title>RHDR Wiki - Ranks And Points</title>
     <link rel="stylesheet" href="../assets/css/main.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #111;
-            color: #ddd;
-            line-height: 1.5;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 20px auto;
-            padding: 20px;
-            flex: 1;
-        }
-
-        .hero-left h1 {
-            font-family: 'Verdana', sans-serif;
-            font-size: 3rem;
-            margin-bottom: 0.5rem;
-            color: #ff5c5c;
-        }
-
-        .hero-left p {
-            font-size: 1.2rem;
-            line-height: 1.6;
-            color: #fff;
-        }
-
-        .card {
-            background: #1a1a1a;
-            border: 1px solid #333;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 30px;
-            transition: all 0.3s ease;
-        }
-
-        .card h3 {
-            color: #ff5c5c;
-            margin-bottom: 15px;
-            border-bottom: 1px solid #333;
-            padding-bottom: 5px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            color: #fff;
-            margin-bottom: 20px;
-        }
-
-        th,
-        td {
-            border: 1px solid #333;
-            padding: 10px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #1a1a1a;
-            color: #ff5c5c;
-        }
-
-        tr:nth-child(even) {
-            background-color: rgba(255, 92, 92, 0.05);
-        }
-
-        tr:hover {
-            background-color: rgba(255, 92, 92, 0.1);
-        }
-
-        .pps-container {
-            background: #222;
-            padding: 15px 20px;
-            border-radius: 8px;
-        }
-
-        .pps-checkboxes {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-bottom: 15px;
-        }
-
-        .pps-checkboxes label {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            font-size: 1rem;
-            cursor: pointer;
-        }
-
-        .pps-checkboxes input[type="checkbox"] {
-            width: 18px;
-            height: 18px;
-            accent-color: #ff5c5c;
-            cursor: pointer;
-        }
-
-        .pps-container button {
-            background: #ff5c5c;
-            color: #111;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: 0.2s;
-        }
-
-        .pps-container button:hover {
-            background: #e04b4b;
-        }
-
-        #ppsResult {
-            margin-top: 15px;
-            font-size: 1.1rem;
-        }
-
-        footer {
-            background: #111;
-            border-top: 2px solid #333;
-            padding: 20px;
-            text-align: center;
-            margin-top: auto;
-        }
-
-        .footer-buttons a button {
-            background: #ff5c5c;
-            color: #111;
-            border: none;
-            padding: 10px 20px;
-            margin: 5px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: 0.2s;
-        }
-
-        .footer-buttons a button:hover {
-            background: #e04b4b;
-        }
-    </style>
+    <link rel="stylesheet" href="../assets/css/rankAndPoints.css">
 </head>
 
 <body>
@@ -191,15 +40,51 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Manager</td><td>300k</td><td></td></tr>
-                    <tr><td>CCRO</td><td>150k</td><td></td></tr>
-                    <tr><td>Senior Supervisor</td><td>75k</td><td>+ Laser Pointer</td></tr>
-                    <tr><td>Supervisor</td><td>25k</td><td>+ Intercom + Supervisor Room</td></tr>
-                    <tr><td>Senior Operator</td><td>10k</td><td></td></tr>
-                    <tr><td>Operator</td><td>5k</td><td></td></tr>
-                    <tr><td>Junior Operator</td><td>2k</td><td></td></tr>
-                    <tr><td>Trainee</td><td>500</td><td></td></tr>
-                    <tr><td>Visitor</td><td>0</td><td></td></tr>
+                    <tr>
+                        <td>Manager</td>
+                        <td>300k</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>CCRO</td>
+                        <td>150k</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Senior Supervisor</td>
+                        <td>75k</td>
+                        <td>+ Laser Pointer</td>
+                    </tr>
+                    <tr>
+                        <td>Supervisor</td>
+                        <td>25k</td>
+                        <td>+ Intercom + Supervisor Room</td>
+                    </tr>
+                    <tr>
+                        <td>Senior Operator</td>
+                        <td>10k</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Operator</td>
+                        <td>5k</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Junior Operator</td>
+                        <td>2k</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Trainee</td>
+                        <td>500</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Visitor</td>
+                        <td>0</td>
+                        <td></td>
+                    </tr>
                 </tbody>
             </table>
 
@@ -214,8 +99,9 @@
                     <label><input type="checkbox" id="tailwaterBonus"> Tailwater Bonus</label>
                     <label><input type="checkbox" id="demandMet"> Demand Met</label>
                 </div>
-                <button onclick="calculatePPS()">Calculate PPS</button>
-                <p id="ppsResult">Points per second: 0</p>
+                <!-- <button onclick="calculatePPS()">Calculate PPS</button> -->
+                <!-- <p id="ppsResult">Points per second: 0</p> -->
+                 <p><b>Temp disabled because i am too lazy to find real values. If anyone knows the values ping me in the discord.</b></p>
             </div>
         </div>
 
@@ -226,7 +112,8 @@
             <p>Licensed Under Creative Commons Attribution Share Alike 4.0 International</p>
             <div class="footer-buttons">
                 <a href="https://discord.gg/nUVyCrZCnU" target="_blank"><button>Discord</button></a>
-                <a href="https://www.roblox.com/games/18319297875/Hydro-electric-Simulator" target="_blank"><button>Play on Roblox</button></a>
+                <a href="https://www.roblox.com/games/18319297875/Hydro-electric-Simulator" target="_blank"><button>Play
+                        on Roblox</button></a>
             </div>
         </div>
     </footer>
