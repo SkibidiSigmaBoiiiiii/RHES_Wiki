@@ -1,5 +1,3 @@
-// @Przemo2603 (aka @request6865432) was here :3
-
 function calculatePPS() {
     const trashBox = document.getElementById("trashBox").checked;
     const genTemp = document.getElementById("genTemp").checked;
